@@ -1,6 +1,20 @@
 {
-  "name": "shemoks/task2",
-  "require": {
-    "php": ">=5.5.0"
-  }
+    "name": "oksana/task2",
+    "description": "Autoload in Composer ",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shemoks",
+            "email": "shemshur@ukr.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Product\\": ["app/Product", "app/Book"]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php":">=5.5.0"
+    }
 }
