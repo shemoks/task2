@@ -24,6 +24,7 @@ abstract class Product
     public abstract function setPrice($price);
 
     public abstract function printProperties();
+
     public abstract function discount();
 
     public function __set($property, $value)
