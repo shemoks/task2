@@ -10,7 +10,8 @@
     ],
     "autoload": {
         "psr-4": {
-            "Product\\": ["app/Product", "app/Book"]
+            "Product\\": ["app/Product","app/Book"],
+            "Book\\": "app/Picture"
         }
     },
     "minimum-stability": "dev",
