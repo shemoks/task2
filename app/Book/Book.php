@@ -1,7 +1,9 @@
 <?php
 
-namespace Product;
+namespace app\Book;
 
+
+use app\Product\Product;
 
 class Book extends Product
 {

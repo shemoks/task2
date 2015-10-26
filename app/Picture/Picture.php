@@ -6,10 +6,9 @@
  * Time: 14:54
  */
 
-namespace Book;
+namespace app\Picture;
 
-use Product\Book;
-
+use app\Book\Book;
 
 interface PictureInterface
 {

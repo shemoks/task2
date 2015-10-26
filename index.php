@@ -1,8 +1,10 @@
+<meta charset="UTF-8">
 <?php
-require_once "vendor/autoload.php";
+use app\Book\Book;
+use app\Picture\Picture;
 
-use Product\Book;
-use Book\Picture;
+require(__DIR__ . '/app/BaseApp.php');
+
 
 echo "Книги<br>";
 $history = new Book();

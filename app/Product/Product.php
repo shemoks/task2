@@ -6,7 +6,7 @@
  * Time: 23:01
  */
 
-namespace Product;
+namespace app\Product;
 
 
 abstract class Product
