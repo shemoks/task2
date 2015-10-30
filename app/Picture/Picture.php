@@ -10,18 +10,6 @@ namespace Book;
 
 use Product\Book;
 
-
-interface PictureInterface
-{
-    public function getWidth();
-
-    public function setWidth($company);
-
-    public function getHeight();
-
-    public function setHeight($position);
-}
-
 class Picture extends Book implements PictureInterface
 {
     protected $height;

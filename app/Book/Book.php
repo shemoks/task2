@@ -2,7 +2,6 @@
 
 namespace Product;
 
-
 class Book extends Product
 {
     protected $author;
